@@ -19,6 +19,7 @@ public class MainLinkedlistLocation {
 		list.insert(c);
 		list.insertAtStart(b);
 		list.insertAt(2, a);
+		list.deleteAt(2);
 		list.show();
 	}
 
