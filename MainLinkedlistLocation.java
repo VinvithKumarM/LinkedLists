@@ -14,10 +14,11 @@ public class MainLinkedlistLocation {
 		System.out.println("Enter the node data to be inserted:c");
 		int c = sc.nextInt();
 		Linkedlist_Node_Insertion list = new Linkedlist_Node_Insertion();
-		System.out.println(a);
 		list.insert(a);
 		list.insert(b);
 		list.insert(c);
+		list.insertAtStart(b);
+		list.insertAt(2, a);
 		list.show();
 	}
 
